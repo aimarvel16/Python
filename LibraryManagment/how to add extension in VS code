@@ -1,0 +1,17 @@
+https://go.microsoft.com/fwlink/?linkid=2006060 - Offline down ပီး exten ထည့် install 
+
+
+how to write commands in terminal for activating the env (to add env in vs code)
+
+1. Open folder in vs code that locatte your code folder
+2. in terminal make sure your code folder is in pythonPath
+3. then , type "activate yourenvname"
+
+if error occurs unauthorized
+run this
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+then, activate yourenvname
+ 
+now it works.
